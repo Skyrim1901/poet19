@@ -1,0 +1,61 @@
+body
+{
+	background: url(img/ugol.jpg);
+}
+
+
+
+.mainframe
+{
+	border: 1px solid black;
+	width: 900px;
+	margin: 20px auto 20px; 
+}
+
+.header
+{
+	/*border: 1px solid red;*/
+	overflow: hidden;
+
+}
+
+.LeftMenu
+{
+	/*border: solid blue;*/
+	float: left;
+	overflow: hidden;
+	width: 100px;
+	padding: 20px;
+}
+.workArea
+{
+	/*border: 1px solid black;*/
+	overflow: hidden;
+	padding: 20px;
+	text-align: justify; /* Выравнивание по ширине */
+
+
+}
+
+.footer
+{
+	/*border: 1px solid red;*/
+	overflow: hidden;
+	font-family: Roboto, sans-serif;
+
+}
+
+.menu
+{
+	/*border: 1px solid black;*/
+	font-family: Roboto, sans-serif;
+	padding: 10px;
+	text-decoration: none;
+	color: black;
+}
+
+.menu:hover
+{
+	color: white;
+	background-color: grey;
+}
